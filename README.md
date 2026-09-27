@@ -5,7 +5,7 @@
 
 <hr/>
 
-## 📖 El Desafío del Cliente
+## El Desafío del Cliente
 
 **"UniNotes"** es una plataforma centralizada para que estudiantes de diversas universidades compartan sus apuntes. La mecánica: un alumno sube sus apuntes proporcionando un enlace de **Google Drive** y selecciona su Universidad.
 
