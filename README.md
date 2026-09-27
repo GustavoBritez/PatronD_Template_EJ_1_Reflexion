@@ -19,7 +19,7 @@ El flujo conceptual de procesamiento es idéntico para todos:
 
 ---
 
-## 🛠️ La Solución "SSR": Template Method + Reflection (Capas)
+## 🛠️ La Solución : Template Method + Reflection (Capas)
 
 Implementamos una arquitectura robusta en **N-Capas** (UI, BLL, BE, Servicios) utilizando el patrón **Template Method** en la capa de `Servicios` para estandarizar el algoritmo. Adicionalmente, aplicamos **Reflection y Atributos Personalizados (Metadatos)** en la capa `BLL` para descubrir instanciar el procesador correcto en tiempo de ejecución de manera dinámica, eliminando por completo los anti-patrones de múltiples `if/else` o `switch`.
 
