@@ -78,5 +78,5 @@ private ProcesadorApunteTemplate ObtenerProcesador(string universidad)
 ```
 
 ## 🎯 Beneficios de este Enfoque (Nivel Senior)
-1. **Verdadero Principio Abierto/Cerrado (OCP):** Agregar una nueva universidad (`ProcesadorSiglo21`) ahora solo requiere crear la clase y ponerle el atributo `[UniversidadProcesador("Siglo21")]`. ¡No hay que tocar la `BLL` en lo absoluto!
+1. **Verdadero Principio Abierto/Cerrado (OCP):** Agregar una nueva universidad (`ProcesadorSiglo21`) ahora solo requiere crear la clase y ponerle el atributo `[UniversidadProcesador("Siglo21")]`. No hay que tocar la `BLL`
 2. **Descubrimiento Dinámico:** La instanciación delegada a `Reflection` reduce el acoplamiento y promueve arquitecturas modulares estilo *Plug & Play*.
